@@ -1,0 +1,18 @@
+{
+  "harp": "harp.json",
+  "dist": "dist/",
+  "scsslint": "config/scsslint.yml",
+  "data": "public/_data.json",
+  "sites": "public/*.ejs",
+  "partials": "public/assets/partials/**",
+  "images": "public/assets/images/**",
+  "scripts": {
+    "src": "public/assets/scripts/src/**/*[.js, .jsx]",
+    "dist": "public/assets/scripts/dist"
+  },
+  "styles": {
+    "main": "public/assets/styles/main.css",
+    "css": "public/assets/styles/**/*.css",
+    "scss": "public/assets/styles/**/*.scss"
+  }
+}

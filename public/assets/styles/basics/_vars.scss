@@ -1,0 +1,28 @@
+// Colors ------------------------------------------------------ //
+$colorGreen  : #6fae43;
+$colorRed    : #de3350;
+$colorPurple : #8542aa;
+$colorYellow : #eb8900;
+$colorText   : #333;
+
+// Sizes ------------------------------------------------------- //
+$spacing: 1em;
+
+// Breakpoints ------------------------------------------------- //
+$bpXXS : 480px;
+$bpXS  : 640px;
+$bpS   : 960px;
+$bpM   : 1024px;
+$bpL   : 1280px;
+$bpXL  : 1366px;
+$bpXXL : 1920px;
+
+// Animations -------------------------------------------------- //
+$duration : .3s;
+$timing   : cubic-bezier(.51, .92, .24, 1);
+
+// Typography -------------------------------------------------- //
+$font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font -------------------------------------------------------- //
+$fontDefault: normal 400 16px/1.6 $font;

@@ -1,0 +1,20 @@
+{
+  "globals": {
+    "lang": "en",
+    "site": "Harp",
+    "title": "",
+    "author": "",
+    "keywords": "",
+    "description": "",
+    "bodyclass": "",
+    "favicon": "assets/images/favicon.ico",
+    "styles": [
+      "assets/bower/normalize-scss/normalize.css",
+      "assets/styles/main.css"
+    ],
+    "scripts": [
+      "assets/bower/jquery/dist/jquery.min.js",
+      "assets/scripts/dist/main.js"
+    ]
+  }
+}

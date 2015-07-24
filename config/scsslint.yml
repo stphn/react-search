@@ -1,0 +1,62 @@
+linters:
+
+  CapitalizationInSelector:
+    enabled: false
+
+  MergeableSelector:
+    enabled: false
+
+  SelectorDepth:
+    max_depth: 4
+
+  SelectorFormat:
+    enabled: false
+
+  Indentation:
+    character: 'tab'
+    width: 1
+
+  FinalNewline:
+    present: false
+
+  NameFormat:
+    enabled: false
+
+  ColorKeyword:
+    enabled: false
+
+  PropertySortOrder:
+    order:
+      - content
+      - display
+      - position
+      - float
+      - top
+      - right
+      - bottom
+      - left
+      - margin
+      - margin-top
+      - margin-right
+      - margin-bottom
+      - margin-left
+      - padding
+      - padding-top
+      - padding-right
+      - padding-bottom
+      - padding-left
+      - width
+      - min-width
+      - max-height
+      - height
+      - min-height
+      - max-height
+      - background
+      - background-color
+      - background-image
+      - etc...
+
+  PropertySpelling:
+    extra_properties:
+      - text-size-adjust
+      - '*zoom'

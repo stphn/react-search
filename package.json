@@ -1,0 +1,31 @@
+{
+  "name": "react-search",
+  "version": "2.3.0",
+  "description": "Starting template for Harp",
+  "private": true,
+  "main": "gulpfile.js",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stphn/react-search"
+  },
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "bower install",
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^1.0.0-rc",
+    "gulp-scss-lint": "^0.2.2",
+    "harp": "^0.17.0",
+    "jshint-stylish": "^2.0.1"
+  }
+}

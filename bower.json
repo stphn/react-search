@@ -1,0 +1,19 @@
+{
+  "name": "HarpStart",
+  "version": "2.3.0",
+  "description": "Starting template for Harp",
+  "private": true,
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/HarpStart.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "normalize-scss": "~3.0.1",
+    "jquery": "~2.1.1",
+    "react": "~0.13.3"
+  }
+}

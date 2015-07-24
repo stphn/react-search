@@ -1,0 +1,38 @@
+// Button Mixin ---------------------------------------------------------------- //
+@mixin btn($name: '', $c: #444) {
+
+	@if $name != '' { $name: '-' + $name; }
+
+	a.btn#{ $name }, .btn#{ $name } {
+
+		display: inline-block;
+		padding: $spacing/2 $spacing;
+		background: $c;
+		color: white;
+		line-height: 1em;
+		text-decoration: none;
+		white-space: nowrap;
+		cursor: pointer;
+		user-select: none;
+		transition: background .2s $timing;
+		border: 0;
+		border-radius: 0;
+
+		&:hover { background: lighten($c, 10%); }
+
+		&:active {
+			transition: none;
+			background: darken($c, 10%);
+		}
+
+		@content;
+
+	}
+
+}
+
+// Default Button -------------------------------------------------------------- //
+@include btn();
+
+// Button Variations ----------------------------------------------------------- //
+@include btn('light', #888);
